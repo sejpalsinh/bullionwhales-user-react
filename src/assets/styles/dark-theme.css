@@ -1,0 +1,287 @@
+/* body and footer and main background color*/
+.content-bg {
+    background-color: #000000 !important;
+}
+
+/* Card Colors*/
+.dark-theme-card {
+    background-color: #191c24 !important
+}
+
+.dark-card-title {
+    color: #fff !important;
+}
+
+/*All Input and lables*/
+.dark-form-control {
+    border: 1px solid #2c2e33 !important;
+    background-color: #2a3038 !important;
+    color: white !important;
+}
+
+.dark-form-control:focus {
+    background-color: #2a3038 !important;
+    color: #fff !important;
+    border: 1px solid rgba(0, 128, 0, 0.3) !important;
+}
+
+.dark-form-control::placeholder {
+    color: #6c7293 !important
+        /* #9d9fab !important;  */
+}
+
+.dark-form-control.searchbox-style {
+    color: white !important;
+}
+
+.dark-form-control:disabled {
+    opacity: 0.5 !important;
+}
+
+/* special for search style input*/
+.dark-form-control.searchbox-style:focus {
+    background-color: #2a3038 !important;
+    color: #fff !important;
+    border: 1px solid rgba(0, 128, 0, 0.3) !important;
+}
+
+.dark-text.form-label {
+    color: #fff !important;
+}
+
+.dark-text .form-group label {
+    color: #fff !important;
+}
+
+.dark-text.form-group label {
+    color: #fff !important;
+}
+
+/* react-select custom style*/
+.dark-select .react-select__control,
+.dark-select .react-select__menu {
+    background-color: #2a3038 !important;
+    border: 1px solid #2c2e33 !important;
+    color: #fff !important;
+}
+
+.dark-select .react-select__control:hover,
+.dark-select .react-select__control:focus {
+    background-color: #2a3038 !important;
+    border: 1px solid #2c2e33 !important;
+    color: #fff !important;
+}
+
+.dark-select .react-select__single-value {
+    color: #fff !important;
+}
+
+.dark-select .react-select__option:hover {
+    color: #fff !important;
+    background-color: rgba(11, 87, 185, 0.925) !important;
+
+}
+
+.dark-select .react-select__option {
+    background-color: #2a3038 !important;
+    color: #fff !important;
+
+}
+
+.dark-select .react-select__option--is-selected {
+    background-color: rgb(38, 132, 255) !important;
+}
+
+.dark-select .react-select__option--is-focused {
+    background-color: rgba(11, 87, 185, 0.925) !important;
+}
+
+
+/* page title -> top content title*/
+.dark-page-title {
+    color: #fff !important;
+}
+
+
+.dark-text {
+    color: #fff !important;
+}
+
+/* tooltip -> strategt info*/
+.dark-tooltip-inner .tooltip-inner {
+    background-color: #0090e7 !important;
+}
+
+/* Response Model*/
+.dark-modal .modal-content {
+    background-color: #191c24 !important;
+    color: white !important;
+    border: 1px solid rgba(255, 255, 255, 0.3) !important;
+}
+
+.dark-modal .modal-body {
+    background-color: #0f1015 !important;
+    color: white !important;
+}
+
+.dark-modal .modal-body .form-group label {
+    color: #fff !important;
+
+}
+
+.dark-modal .modal-header {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3) !important;
+}
+
+.dark-modal .modal-footer {
+    border-top: 1px solid rgba(255, 255, 255, 0.3) !important;
+}
+
+
+/* Navbar Profile view dropdown */
+.dark-dropdown-menu {
+    background-color: #191c24 !important;
+    color: white !important;
+}
+
+.dark-dropdown-menu .dropdown-item:hover {
+    background-color: #13151b !important;
+    color: #fff !important;
+
+}
+
+.dark-dropdown-menu .preview-subject {
+    color: #fff !important;
+}
+
+
+.dark-dropdown-menu .dropdown-divider {
+    border-top: 1px solid #2c2e33 !important;
+}
+
+
+
+/*Tabs */
+.dark-nav-tabs.nav-item.nav-link:not(.active) {
+    border-top: 0 !important;
+    border-left: 0 !important;
+    border-right: 0 !important;
+    border-color: rgba(255, 255, 255, 0.3) !important;
+    color: #fff !important;
+}
+
+.dark-nav-tabs.nav-item.nav-link.active {
+    color: #fff !important;
+    background-color: #000000 !important;
+    border-color: rgba(255, 255, 255, 0.3) !important;
+    border-bottom: 0 !important;
+}
+
+.dark-nav-tabs.nav-tabs {
+    border: 0 !important;
+}
+
+/* datepicker-dark-theme.css */
+/* Customize the date picker to match your dark theme */
+.dark-datepicker .react-datepicker {
+    font-family: Arial, sans-serif !important;
+    background-color: #191c24 !important;
+    /* Background color */
+    color: #fff !important;
+    /* Text color */
+}
+
+.dark-datepicker .react-datepicker__header {
+    color: #fff !important;
+    background-color: #191c24d6 !important;
+    /* Header background color */
+}
+
+.dark-datepicker .react-datepicker__day-names {
+    color: #fff !important;
+    background-color: #191c24d5 !important;
+    /* Day names background color */
+}
+
+.dark-datepicker .react-datepicker__day {
+    color: #fff !important;
+
+    /* Day number color */
+    &:hover {
+        background-color: #191c24b7 !important;
+        /* Hover background color */
+    }
+}
+
+/* Override the text color inside the date picker */
+.dark-datepicker .react-datepicker__current-month,
+.dark-datepicker .react-datepicker__day-name,
+.dark-datepicker .react-datepicker__day,
+.dark-datepicker .react-datepicker__time-name,
+.dark-datepicker .react-datepicker__time,
+.dark-datepicker .react-datepicker__time-box {
+    color: #fff !important;
+    /* Text color inside the date picker */
+}
+
+.dark-datepicker .react-datepicker-wrapper {
+    width: 100% !important;
+}
+
+.dark-datepicker .form-control {
+    width: 100% !important;
+    background-color: #2a3038 !important;
+    color: #fff !important;
+}
+
+
+.dark-datepicker-form-control {
+    border: 1px solid #2c2e33 !important;
+    height: calc(2.25rem + 2px) !important;
+    font-weight: 400 !important;
+    font-size: .875rem !important;
+    padding: .625rem .6875rem !important;
+    background-color: #2a3038 !important;
+    border-radius: 2px !important;
+    color: #fff !important;
+    width: 100% !important;
+}
+
+.dark-datepicker-form-control:focus {
+    border: 1px solid rgba(71, 164, 71, .3) !important;
+    background-color: #2a3038 !important;
+}
+
+.dark-datepicker-form-control {
+    border: 1px solid #2c2e33 !important;
+    height: calc(2.25rem + 2px) !important;
+    font-weight: 400 !important;
+    font-size: .875rem !important;
+    padding: .625rem .6875rem !important;
+    background-color: #2a3038 !important;
+    border-radius: 2px !important;
+    color: #fff !important;
+    width: 100% !important;
+}
+
+.dark-text-muted {
+
+    color: #6c7293 !important
+        /* #9d9fab !important; 
+        color: #6c7293 !important
+         */
+}
+
+
+.dark-form-control[type="date"]::-webkit-calendar-picker-indicator {
+    filter: invert(1);
+}
+
+
+.dark-text .form-control-file {
+    color: #fff !important;
+}
+
+.white-text .form-control-file {
+    color: #000000 !important;
+}

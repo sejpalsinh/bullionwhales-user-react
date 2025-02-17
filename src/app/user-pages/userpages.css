@@ -1,0 +1,411 @@
+.centerFormAlignment {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+label {
+	color: white;
+}
+
+select {
+	color: white;
+}
+
+option {
+	color: white;
+	background: #191c24;
+	border-color: white;
+}
+
+table,
+.dataTables_info,
+a {
+	color: white !important;
+}
+
+input {
+	color: white;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button:hover {
+	color: white !important;
+	border: 1px solid white !important;
+	background-color: white !important;
+}
+
+form .form-control:focus {
+	color: #fff;
+}
+
+form .list-group .list-group-item {
+	color: #12151e;
+}
+
+form .list-group .list-group-item.active {
+	color: #fff;
+}
+
+.searchable-dropdown-btn {
+	text-align: left;
+	border: 1px solid #2c2e33;
+	height: calc(2.25rem + 2px);
+	font-weight: normal;
+	font-size: 0.875rem;
+	padding: 0.625rem 0.6875rem;
+	width: 100%;
+	background-color: #2a3038;
+	border-radius: 2px;
+	color: #ffffff;
+}
+
+.searchable-dropdown-btn::after {
+	float: right;
+}
+
+.searchable-dropdown-btn:active,
+.searchable-dropdown-btn:focus,
+.searchable-dropdown-btn:hover,
+.show>.searchable-dropdown-btn {
+	background-color: #2a3038 !important;
+	color: #ffffff !important;
+	border: 1px solid #2c2e33 !important;
+}
+
+.dropdown .dropdown-menu {
+	width: 100%;
+	inset: -10px auto auto 0px !important;
+}
+
+.form-control:disabled,
+.form-control[readonly] {
+	background-color: #2a3038;
+}
+
+.form-group label {
+	color: #fff !important;
+}
+
+input:-internal-autofill-selected {
+	background-color: #2a3038 !important;
+}
+
+.css-2b097c-container>div {
+	background-color: #2a3038 !important;
+	border: 1px solid #2c2e33 !important;
+	color: white !important;
+	cursor: pointer;
+}
+
+.css-1n7v3ny-option {
+	background-color: #0078c1 !important;
+}
+
+.css-1uccc91-singleValue {
+	color: #fff !important;
+}
+
+.customtab a {
+	color: #fff !important;
+}
+
+.card {
+	border-radius: 0.75rem;
+}
+
+.rounded,
+.loader-demo-box {
+	border-radius: 0.75rem !important;
+}
+
+.searchbox-style:focus {
+	color: #fff !important;
+}
+
+.searchbox-style {
+	float: right;
+	width: 100%;
+	color: #fff;
+}
+
+.inputbox-style {
+	width: 100%;
+	color: #fff;
+}
+
+.inputbox-style:focus {
+	color: #fff !important;
+}
+
+#copy-trading-plan-card-container .card .card-header {
+	border-top-left-radius: 0.75rem;
+	border-top-right-radius: 0.75rem;
+}
+
+#copy-trading-plan-card-container .card .card-body h5 span {
+	font-size: 0.9rem;
+}
+
+/* Dropdown Text White */
+.custom-select__input input {
+	color: black !important;
+}
+
+@media (max-width: 768px) {
+	.col-sm-12 {
+		margin: 5px 0px;
+	}
+}
+
+@media (min-width: 768px) {
+	.dashboard_row2 {
+		margin-top: 3rem;
+	}
+
+	.dashboard_row1 .card {
+		min-height: 140px;
+	}
+
+	.searchbox-style {
+		width: 50%;
+	}
+}
+
+@media (min-width: 1024px) {
+	.searchbox-style {
+		width: 25%;
+	}
+}
+
+.btn-bg-color {
+	background-color: #595959;
+}
+
+.map-container {
+	/* position: relative; */
+	overflow: hidden;
+
+}
+
+/* Responsive styles for map card */
+@media (max-width: 767px) {
+	.map-card .map-container {
+		padding-bottom: 80%;
+		/* Adjust the aspect ratio for mobile */
+	}
+}
+
+.select,
+.select__control {
+	background-color: #2a3038 !important;
+	color: white !important;
+	border: 1px solid #2c2e33 !important;
+}
+
+.select__single-value {
+	color: white !important;
+}
+
+.select__menu {
+	background-color: #2a3038 !important;
+}
+
+.select__option {
+	background-color: #2a3038 !important;
+	color: white !important;
+}
+
+.select__option--is-focused {
+	background-color: #0078c1 !important;
+	color: white !important;
+}
+
+.select__input {
+	color: white !important;
+}
+
+/* Custom scrollbar styling */
+.select__menu-list {
+	scrollbar-color: #595959 #2a3038;
+	/* Firefox */
+	scrollbar-width: thin;
+	/* Firefox */
+}
+
+/* For WebKit browsers like Chrome and Safari */
+.select__menu-list::-webkit-scrollbar {
+	width: 12px;
+	height: 12px;
+	/* Add this for horizontal scrollbar */
+}
+
+.select__menu-list::-webkit-scrollbar-thumb {
+	background-color: #595959;
+	border-radius: 10px;
+	border: 3px solid #2a3038;
+}
+
+.select__menu-list::-webkit-scrollbar-track {
+	background-color: #2a3038;
+}
+
+/* Additional custom styles for better appearance */
+.select__menu-list::-webkit-scrollbar-thumb:hover {
+	background-color: #0078c1;
+}
+
+.dot-indicator {
+	margin-bottom: 1vh;
+	margin-right: 1vw;
+}
+
+.card-title-container {
+	display: flex;
+	align-items: center;
+}
+
+.jumping-dots-loader span {
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	border-radius: 100%;
+	background-color: #ffcc29;
+	margin: 35px 5px;
+}
+
+.jumping-dots-loader span:first-child() {
+	animation: bounce 1s ease-in-out infinite;
+}
+
+.jumping-dots-loader span:nth-child(3) {
+	animation: bounce 1s ease-in-out .66s infinite;
+}
+
+.jumping-dots-loader span:nth-child(2) {
+	animation: bounce 1s ease-in-out .33s infinite;
+}
+
+.custom-badge {
+	background-color: #616F8C;
+	/* Your custom color */
+	color: white;
+	/* Set text color to white for better contrast */
+}
+
+.border-start {
+	border-left: 1px solid rgba(126, 132, 164, 0.4);
+	/* Adjust color and thickness */
+}
+
+.rounded-border {
+	border: 1px solid rgba(126, 132, 164, 0.4);
+	border-radius: 0.25rem;
+	margin-top: 5px;
+}
+
+/* Default modal width */
+.custom-modal .modal-dialog {
+	max-width: 100% !important;
+}
+
+/* Medium screens (tablets, 768px and up) */
+@media (min-width: 768px) {
+	.custom-modal .modal-dialog {
+		max-width: 600px !important;
+	}
+}
+
+/* Large screens (desktops, 992px and up) */
+@media (min-width: 992px) {
+	.custom-modal .modal-dialog {
+		max-width: 800px !important
+	}
+}
+
+/* Large screens (desktops, 1140px and up) */
+@media (min-width: 1140px) {
+	.custom-modal .modal-dialog {
+		max-width: 1000px !important
+	}
+}
+
+/* Custom styles for the tab headers */
+.custom-tab {
+	border-color: #2c2e33;
+	border-width: 1px;
+	border-style: solid;
+	border-radius: 4px 4px 0 0;
+	background-color: #191c24;
+	/* Default dark color for non-active tabs */
+	color: #7e84a4;
+	/* Default text color */
+	padding: 2px 20px;
+}
+
+/* Active Buy tab style */
+.active-buy-tab {
+	background-color: #28a745 !important;
+	/* Green background for active Buy tab */
+	color: white !important;
+	/* White text when Buy tab is active */
+	border: none,
+}
+
+/* Active Sell tab style */
+.active-sell-tab {
+	background-color: #dc3545 !important;
+	/* Red background for active Sell tab */
+	color: white !important;
+	/* White text when Sell tab is active */
+}
+
+/* Active tab style */
+.active-tab {
+	background-color: #28a745 !important;
+	/* Green background for active Buy tab */
+	color: white !important;
+	/* White text when Buy tab is active */
+	border: none,
+}
+
+.search-sort-container {
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	max-width: 500px;
+	margin-bottom: 15px;
+}
+
+.search-input {
+	width: 60%;
+	max-width: 250px;
+	padding: 5px 10px;
+	border-radius: 4px;
+}
+
+.sort-dropdown {
+	width: 40%;
+	max-width: 200px;
+	padding: 5px 10px;
+	border-radius: 4px;
+}
+
+.pthead-aa1 {
+	overflow: hidden;
+	border-radius: 14px 14px 0 0;
+	text-align: center
+}
+
+.pthead-aa1 img {
+	width: 50px;
+	margin: 10px auto;
+	filter: drop-shadow(0 16px 10px #0d088b)
+}
+
+
+
+.pricing-table-aa1 {
+	border-radius: 14px;
+	overflow: hidden
+}
